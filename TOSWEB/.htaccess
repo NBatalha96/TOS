@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /PROJ1/
+RewriteBase /TOSWEB/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /PROJ1/index.php [L]
+RewriteRule . /TOSWEB/index.php [L]
 </IfModule>
 
 # END WordPress
